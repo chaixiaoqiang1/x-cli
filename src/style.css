@@ -1,0 +1,15 @@
+.iconfont{
+	font-family: "iconfont";
+	src: url('./static/iconfont.ttf') format('ttf');
+	font-size:16px;
+}
+
+.icon-daojishi:before {
+  content: "\e614";
+}
+
+.hello{
+	color: #ff0000;
+	background-image: url('./static/test.jpg');
+	background-repeat: no-repeat;
+}

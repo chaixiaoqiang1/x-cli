@@ -1,0 +1,43 @@
+{
+	"name": "ts",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"scripts": {
+		"build": "webpack --mode=production",
+		"watch": "webpack --watch webpack.config.js",
+		"dev": "webpack --mode=development",
+		"start": "webpack-dev-server --open --mode=development",
+		"server": "node server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "hexinshi",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"@babel/preset-es2015": "^7.0.0-beta.53",
+		"babel-loader": "^8.0.6",
+		"clean-webpack-plugin": "^3.0.0",
+		"css-loader": "^3.2.0",
+		"express": "^4.17.1",
+		"extract-loader": "^3.1.0",
+		"extract-text-webpack-plugin": "^4.0.0-beta.0",
+		"file-loader": "^4.2.0",
+		"html-loader": "^0.5.5",
+		"html-webpack-plugin": "^3.2.0",
+		"lodash": "^4.17.15",
+		"style-loader": "^1.0.0",
+		"ts-loader": "^6.0.4",
+		"typescript": "^3.5.3",
+		"url-loader": "^2.1.0",
+		"vue": "^2.6.10",
+		"vue-loader": "^15.7.1",
+		"vue-template-compiler": "^2.6.10",
+		"webpack": "^4.39.2",
+		"webpack-cli": "^3.3.6",
+		"webpack-dev-middleware": "^3.7.0",
+		"webpack-dev-server": "^3.8.0"
+	}
+}
